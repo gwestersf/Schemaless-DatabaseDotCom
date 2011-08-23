@@ -1,7 +1,8 @@
 package com.force.schemaless;
 
-import junit.framework.*;
 import static org.junit.Assert.*;
+
+import org.junit.Test;
 
 /**
  * 
@@ -20,6 +21,7 @@ public class DocumentDbTest {
     /**
      * 
      */
+    @Test
     public void testApp() {
         assertTrue( true );
     }

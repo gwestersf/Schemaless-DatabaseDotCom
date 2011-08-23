@@ -11,13 +11,13 @@ import java.util.Set;
  */
 public interface SchemalessDatabase {
 
-	public URL insert(String json);
+	public URL insert(String json) throws Exception;
 	
-	public URL update(String json);
+	public URL update(String json) throws Exception;
 	
-	public Set<URL> upsert(String jsonArray);
+	public Set<URL> upsert(String jsonArray) throws Exception;
 	
-	public boolean delete();
+	public boolean delete() throws Exception;
 	
-	public long count();
+	public long count() throws Exception;
 }
