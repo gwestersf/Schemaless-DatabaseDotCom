@@ -28,10 +28,22 @@
       <version>22.0.5-BETA</version>
 	</dependency>
 	
-	<dependency>
+    <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>1.7.1</version>
-	</dependency>
+    </dependency>
   </dependencies>
+
+  <build>
+        <plugins>
+        <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+        <source>1.6</source>
+        <target>1.6</target>
+        </configuration>
+        </plugin>
+        </plugins>
+   </build>
 </project>
