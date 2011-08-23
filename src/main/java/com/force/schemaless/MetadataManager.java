@@ -11,6 +11,8 @@ public interface MetadataManager {
 
 	public String createCustomObject(String name);
 	
+	public Set<String> getCustomObjects();
+	
 	public Set<String> getCustomObjectFields(String customObjectName);
 	
 	public boolean isExistingField(String customObjectName, String fieldName);
